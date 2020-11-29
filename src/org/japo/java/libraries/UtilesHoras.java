@@ -1,5 +1,5 @@
-/* 
- * Copyright 2020 Mireia Oliver García <mireia.oliver.11@gmail.com>.
+/*
+ * Copyright 2020 Mireia Oliver García <mireia.oliver.alum@iescamp.es>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,16 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.japo.java.app;
+package org.japo.java.libraries;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 /**
  *
- * @author Mireia Oliver García - mireia.oliver.11@gmail.com.
+ * @author Mireia Oliver García <mireia.oliver.alum@iescamp.es>
  */
-public class App {
+public class UtilesHoras {
 
-    public void launchApp() {
+    public static final GregorianCalendar CAL
+            = new GregorianCalendar();
 
-    }
-
+    
 }
